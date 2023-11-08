@@ -1,0 +1,35 @@
+npm install firebase
+
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyAkjvtyQoaIukPnQg96Kv3LbeTcQH5n4CI",
+  authDomain: "netflex-abb.firebaseapp.com",
+  projectId: "netflex-abb",
+  storageBucket: "netflex-abb.appspot.com",
+  messagingSenderId: "266680672404",
+  appId: "1:266680672404:web:b049b4950e1b99570f5481",
+  measurementId: "G-9N229LKVTK"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+
+
+
+
+
+npm install -g firebase-tools
+
+firebase login
+
+firebase init
+
+firebase deploy
